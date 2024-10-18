@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff5777;;
+}
+.styled-heading {
+    position: relative;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  .styled-heading::before,
+  .styled-heading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 18%;
+    height: 3px; 
+    background-color:#ddddddec;
+  }
+  
+  .styled-heading::before {
+    left: 0; 
+    margin-right: 10px;
+  }
+  
+  .styled-heading::after {
+    right: 0; 
+    margin-left: 10px; 
+  }
+
+.option {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+.top-item{
+    display: flex;
+}
+.unit-discount{
+    float:left;
+}
+.unit-name{
+    font-weight:bold;
+}
+.price-container{
+    float: right;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+}
+.expand{
+    border-color: #ff5777;;
+    background-color: #fff0f5;
+    border-width: 1.5px;
+
+}
+.option.most-popular {
+  
+    position: relative;
+  
+}
+
+.discount, .price, .standard-price, .badge {
+    margin-left: 10px;
+}
+.discount{
+    background-color: #ff5777;;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.standard-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.most-popular .badge {
+    color: white;
+    background-color: #ff5777;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: -7px;
+}
+
+.size-options {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+select{
+    border: unset;
+    width: 20%;
+    max-width: 100px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    appearance: none;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+    height: 25px;
+}
+
+.size{
+    padding: 5px;
+    margin: 5px;
+}
+.size-name{
+    margin-left: 28px;
+    margin-right: 58px;
+}
+.free-delivery {
+    color: #ff5777;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.total {
+    margin-top: -5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.bottom-item {
+    display: flex;
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+.add-to-cart {
+    background-color: #ff5777;;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icon-plus{
+    padding-right: 5px;
+}
+.add-to-cart:hover {
+    background-color:  #ff5777;
+}
